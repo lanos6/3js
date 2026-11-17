@@ -1,0 +1,55 @@
+*{
+    font-family: inherit;
+}
+
+.profile{
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 12px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.profile_title{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.profile button{
+    padding: 4px 12px;
+    border-radius: 50px;
+    border: none;
+    color: darkslategray;
+    transition: 0.3s all;
+}
+
+.btn_change{
+    background-color: lightblue;
+}
+
+.btn_theme{
+    background-color: lightsalmon;
+}
+
+
+.btn_info{
+    background-color: lemonchiffon;
+}
+
+.profile button:hover{
+    transform: scale(1.1);
+}
+
+.dark{
+    background-color: darkslateblue;
+    color: white;
+}
+
+.extra-info{
+    font-size: 10px;
+}
+
+.hidden{
+    display: none;
+}
